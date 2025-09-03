@@ -1,0 +1,29 @@
+{
+  "name": "John Doe",
+  "title": "Software Engineer",
+  "skills": ["JavaScript", "Python", "Vue.js", "Node.js"],
+  "experience": [
+    {
+      "company": "Tech Corp",
+      "role": "Frontend Developer",
+      "year": "2022–2023",
+      "highlights": ["Built UI components", "Optimized performance"]
+    },
+    {
+      "company": "Data Inc",
+      "role": "Backend Developer",
+      "year": "2021–2022",
+      "highlights": ["Designed APIs", "Worked with SQL databases"]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Alchemy Rush",
+      "description": "2D alchemy game built with Love2D"
+    },
+    {
+      "name": "Pixel Canvas",
+      "description": "Web app where users pay to color pixels"
+    }
+  ]
+}
