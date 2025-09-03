@@ -3,8 +3,8 @@ body{
     background-color: #393939;
     color:#f9f9f9;
     margin: 0;
-    padding: 20px;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 
 a{
@@ -27,6 +27,7 @@ header.main{
     margin-top: 0;
 }
 .wrapper{
+    padding:20px;
     max-width: 1200px;
     margin: 0 auto;
 }
