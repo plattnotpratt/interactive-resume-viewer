@@ -1,29 +1,77 @@
 {
-  "name": "John Doe",
-  "title": "Software Engineer",
-  "skills": ["JavaScript", "Python", "Vue.js", "Node.js"],
-  "experience": [
+  "name": "Christopher Lee Platt",
+  "title": "Web Developer",
+  "summary": [
     {
-      "company": "Tech Corp",
-      "role": "Frontend Developer",
-      "year": "2022–2023",
-      "highlights": ["Built UI components", "Optimized performance"]
+      "title": "Summary",
+      "description": "Innovative Web Developer with over 10 years of experience designing and building high-performing websites and applications. Proven ability to lead teams, develop scalable solutions, and deliver client-focused results. Skilled in backend development and Agile methodologies. Passionate about problem-solving and optimizing application experiences to drive user engagement."
+    }
+  ],
+  "education": [
+    {
+      "title": "Sierra College – AS in Computer Science (Computer Science)",
+      "description": "Rocklin, CA | May 2012"
     },
     {
-      "company": "Data Inc",
-      "role": "Backend Developer",
-      "year": "2021–2022",
-      "highlights": ["Designed APIs", "Worked with SQL databases"]
+      "title": "Sierra College – AS in Computer Science (Management Information Systems)",
+      "description": "Rocklin, CA | May 2012"
+    },
+    {
+      "title": "Woodcreek High School – High School Diploma",
+      "description": "Roseville, CA | May 2008"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Smith House Design LLC – Sr. Web Developer (July 2021 – Present)",
+      "description": "Developed 15+ responsive websites and apps, led a team of 3 developers, and improved client engagement by 40%."
+    },
+    {
+      "title": "Saint Clare of Assisi Roman Catholic Church – Director of Youth Evangelization (Aug 2015 – Jul 2021)",
+      "description": "Organized 50+ youth events, increased program participation by 25%, and mentored volunteers."
+    },
+    {
+      "title": "Smith House Design LLC – Web Development Contractor (Mar 2015 – Jul 2021)",
+      "description": "Designed and built client websites with a focus on usability and innovation."
+    },
+    {
+      "title": "Traklight, Inc. – Web Application Developer (Jul 2014 – Nov 2014)",
+      "description": "Developed web applications in a fast-paced, collaborative environment."
+    },
+    {
+      "title": "ASU Parking and Transit – Dispatcher (May 2013 – Oct 2014)",
+      "description": "Managed real-time dispatch operations and maintained detailed logs."
+    },
+    {
+      "title": "Sierra College Marketing Department – Web Programmer (Jul 2011 – May 2012)",
+      "description": "Revamped Sierra College website and developed features using Velocity and PHP."
+    },
+    {
+      "title": "Sierra College Computer Science Department – Tutor (Jan 2009 – May 2012)",
+      "description": "Taught Java, HTML, Python, and C++ and led project sessions for students."
     }
   ],
   "projects": [
     {
-      "name": "Alchemy Rush",
-      "description": "2D alchemy game built with Love2D"
+      "title": "Interactive Resume Builder",
+      "description": "Created a web application that allows users to build and customize their resumes using HTML and Vanilla Javascript."
+    }
+  ],
+  "awards": [
+    {
+      "title": "Eagle Scout",
+      "description": "Earned rank in Boy Scouts of America (January 2008)."
     },
     {
-      "name": "Pixel Canvas",
-      "description": "Web app where users pay to color pixels"
+      "title": "Programming Language Developer",
+      "description": "Created a language while completing two associate degrees at Sierra College."
+    }
+  ],
+  "skills": [
+    {
+      "title": "Technical Skills",
+      "description": "Python, Java, JavaScript (Express, React, Vue 3), SQL, HTML5, CSS3, SASS, C++, Velocity, PHP, Ruby on Rails, C#, Git, Agile, Team leadership, Client relations, Problem-solving, Linux/Mac/Windows."
     }
   ]
 }
+
