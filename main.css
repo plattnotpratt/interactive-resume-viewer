@@ -3,8 +3,8 @@ body{
     background-color: #393939;
     color:#f9f9f9;
     margin: 0;
-    padding: 0;
-    box-sizing: border-box ;
+    padding: 20px;
+    box-sizing: border-box;
 }
 
 a{
@@ -22,13 +22,13 @@ header.main{
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 20px;
+}
+.logo h1{
+    margin-top: 0;
 }
 .wrapper{
-    width: 100%;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 20px;
 }
 .container{
   
