@@ -4,7 +4,7 @@ This project is a lightweight web application that renders a resume from a struc
 
 I built this project in **1 hour** to demonstrate how quickly I can take an idea from outline → implementation → deployment. The result is both a useful tool and a creative showcase for my resume.
 
-*For demo: [https://plattnotpratt.github.io/interactive-json-viewer/](https://plattnotpratt.github.io/interactive-resume-viewer/){:target="_blank"}*
+*For demo: [https://plattnotpratt.github.io/interactive-json-viewer/](https://plattnotpratt.github.io/interactive-resume-viewer/{target="_blank"})*
 
 ---
 
