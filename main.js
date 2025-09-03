@@ -14,12 +14,12 @@ async function mainFunc(){
 
 let generatePTB = (name, title) => {
     let ptb = document.getElementById("ptb");
-    ptb.children[0].textContent = name;
-    ptb.children[1].textContent = title;
+    ptb.children[0].textContent = "Name: " + name;
+    ptb.children[1].textContent = "Title: " + title;
 }
 
 let generateSkillsCard = (skills) => {
-    let skillsSection = document.getElementById("skills");
+    let skillsSection = document.getElementById("skills-list");
     skills.forEach(skill => {
         let card = buildCard(skill);
         skillsSection.appendChild(card);
@@ -27,7 +27,7 @@ let generateSkillsCard = (skills) => {
 }
 
 let generateExperienceCard = (experience) => {
-    let experienceSection = document.getElementById("experience");
+    let experienceSection = document.getElementById("experience-list");
     experience.forEach(exp => {
         let card = buildCard(exp.company + " - " + exp.role + " : " + exp.year, exp.highlights);
         console.log(exp.highlights);
@@ -36,7 +36,7 @@ let generateExperienceCard = (experience) => {
 }
 
 let generateProjectsCard = (projects) => {
-    let projectsSection = document.getElementById("projects");
+    let projectsSection = document.getElementById("projects-list");
     projects.forEach(project => {
         let card = buildCard(project.name, project.description);
         projectsSection.appendChild(card);
@@ -54,7 +54,6 @@ let buildCard = (cardTitle, cardDescription) => {
 
     if(cardDescription){
         if(Array.isArray(cardDescription)){
-            console.log(cardDescription);
             const ul = document.createElement("ul");
             cardDescription.forEach(desc => {
                 const li = document.createElement("li");
@@ -69,7 +68,6 @@ let buildCard = (cardTitle, cardDescription) => {
         }
     }else{
         //do nothing
-        console.error("No description provided for card: " + cardTitle);
     }
     return card;
 }
